@@ -1,4 +1,4 @@
-public class CounterOfTrainings implements Comparable<CounterOfTrainings>{
+public class CounterOfTrainings implements Comparable<CounterOfTrainings> {
     private final Coach coach;
     private final int counter;
 
