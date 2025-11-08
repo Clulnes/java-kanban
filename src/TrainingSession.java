@@ -1,4 +1,4 @@
-public class TrainingSession implements Comparable<TrainingSession>{
+public class TrainingSession implements Comparable<TrainingSession> {
     private final Group group;
     private final Coach coach;
     private final DayOfWeek dayOfWeek;
