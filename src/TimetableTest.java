@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Assertions;
 
 import java.util.List;
 import java.util.NavigableSet;
-import java.util.Set;
 
 public class TimetableTest {
 
