@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class TimeOfDay implements Comparable<TimeOfDay>{
+public class TimeOfDay implements Comparable<TimeOfDay> {
     private final int hours;
     private final int minutes;
 
@@ -19,8 +19,14 @@ public class TimeOfDay implements Comparable<TimeOfDay>{
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) { return true; }
-        if (o == null || getClass() != o.getClass()) { return false; }
+        if (this == o) {
+            return true;
+        }
+
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
         TimeOfDay timeOfDay = (TimeOfDay) o;
         return hours == timeOfDay.hours && minutes == timeOfDay.minutes;
     }
